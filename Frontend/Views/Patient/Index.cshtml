@@ -1,0 +1,72 @@
+﻿@model IEnumerable<Frontend.Model.Patient>
+
+@{
+    ViewData["Title"] = "Index";
+    var hasAssignedDoctor = @Model.Any(patient => patient.AssignedDoctor != null);
+}
+
+<h1>Patients Management</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Age)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PatientIllness)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AssignedDoctorId)
+            </th>
+            @if(hasAssignedDoctor)
+            {
+                <th>
+                    Assigned Doctor
+                </th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Age)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PatientIllness)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AssignedDoctorId)
+            </td> 
+                @if(item.AssignedDoctor != null)
+                {
+                    <td>
+                        @item.AssignedDoctor.FirstName @item.AssignedDoctor.LastName
+                    </td>
+                }
+               
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+                @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
