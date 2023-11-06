@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\acera\\Desktop\\DSCC.CW1.11920\\dscc_cw_00011920_frontend\\Frontend\\Frontend.csproj": {}
+    "C:\\Users\\acera\\Desktop\\DSCC.CW1.11920\\dscc_cw_00011920_frontend\\frontend\\Frontend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\acera\\Desktop\\DSCC.CW1.11920\\dscc_cw_00011920_frontend\\Frontend\\Frontend.csproj": {
+    "C:\\Users\\acera\\Desktop\\DSCC.CW1.11920\\dscc_cw_00011920_frontend\\frontend\\Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\acera\\Desktop\\DSCC.CW1.11920\\dscc_cw_00011920_frontend\\Frontend\\Frontend.csproj",
+        "projectUniqueName": "C:\\Users\\acera\\Desktop\\DSCC.CW1.11920\\dscc_cw_00011920_frontend\\frontend\\Frontend.csproj",
         "projectName": "Frontend",
-        "projectPath": "C:\\Users\\acera\\Desktop\\DSCC.CW1.11920\\dscc_cw_00011920_frontend\\Frontend\\Frontend.csproj",
+        "projectPath": "C:\\Users\\acera\\Desktop\\DSCC.CW1.11920\\dscc_cw_00011920_frontend\\frontend\\Frontend.csproj",
         "packagesPath": "C:\\Users\\acera\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\acera\\Desktop\\DSCC.CW1.11920\\dscc_cw_00011920_frontend\\Frontend\\obj\\",
+        "outputPath": "C:\\Users\\acera\\Desktop\\DSCC.CW1.11920\\dscc_cw_00011920_frontend\\frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\acera\\AppData\\Roaming\\NuGet\\NuGet.Config",
