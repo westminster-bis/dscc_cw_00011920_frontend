@@ -9847,11 +9847,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\acera\\Desktop\\Frontend\\Frontend\\Frontend.csproj",
+      "projectUniqueName": "C:\\Users\\acera\\Desktop\\DSCC.CW1.11920\\dscc_cw_00011920_frontend\\Frontend\\Frontend.csproj",
       "projectName": "Frontend",
-      "projectPath": "C:\\Users\\acera\\Desktop\\Frontend\\Frontend\\Frontend.csproj",
+      "projectPath": "C:\\Users\\acera\\Desktop\\DSCC.CW1.11920\\dscc_cw_00011920_frontend\\Frontend\\Frontend.csproj",
       "packagesPath": "C:\\Users\\acera\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\acera\\Desktop\\Frontend\\Frontend\\obj\\",
+      "outputPath": "C:\\Users\\acera\\Desktop\\DSCC.CW1.11920\\dscc_cw_00011920_frontend\\Frontend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\acera\\AppData\\Roaming\\NuGet\\NuGet.Config",
