@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+kB6TyiSvh1zqoyZQylIIYodSg4IU8S4t+F+6bNXCA5NA5+7MAwfDvqHQ4B9OFlqwHSijrWXL6DJG5GDpbRT8g==",
+  "dgSpecHash": "VrZaZDWv3So8mmeiyiH8ILLoBA7qXlK2dN8MRnZoP7gwkMfJ4Qpb5dvXUqlw5BISNyHNT50YnDwDM647WeeGPw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\acera\\Desktop\\DSCC.CW1.11920\\dscc_cw_00011920_frontend\\frontend\\Frontend.csproj",
+  "projectFilePath": "C:\\Users\\acera\\Desktop\\DSCC.CW1.11920\\dscc_cw_00011920_frontend\\Frontend\\Frontend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\acera\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\acera\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

@@ -2,6 +2,6 @@
 {
     public class CommonConstants
     {
-        public string BaseUrl = "https://localhost:44348/";
+        public string BaseUrl = "http://ec2-54-242-61-135.compute-1.amazonaws.com/";
     }
 }

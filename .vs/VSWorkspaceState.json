@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\app",
+    "\\deploy-scripts",
+    "\\Frontend",
+    "\\Frontend\\Controllers",
+    "\\Frontend\\Shared"
   ],
+  "SelectedNode": "\\Frontend\\Shared\\CommonConstants.cs",
   "PreviewInSolutionExplorer": false
 }
